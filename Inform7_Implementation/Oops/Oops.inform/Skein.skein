@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1273">
+    <generator>Inform Mac Client (Inform version )</generator>
+    <item nodeId="node-1273">
+        <command xml:space="preserve">Oops</command>
+        <result xml:space="preserve">
+
+
+Oops
+An Interactive Fiction by Kunlin
+Release 1 / Serial number 220305 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Deep Forest
+Oops, you are lost in a deep forest. The trees grow so close together that you cannot see the moon or the sky, and no animals or small plants thrive on the ground. It seems dangerous around, so keep your eyes sharp...
+
+and...
+
+try to go somewhere.
+
+wait...
+
+there's a ball in your pocket!
+
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1280"></child>
+            <child nodeId="node-1276"></child>
+            <child nodeId="node-1284"></child>
+            <child nodeId="node-1274"></child>
+        </children>
+    </item>
+    <item nodeId="node-1274">
+        <command xml:space="preserve">take it</command>
+        <result xml:space="preserve">I'm not sure what 'it' refers to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1275"></child>
+        </children>
+    </item>
+    <item nodeId="node-1275">
+        <command xml:space="preserve">take the ball</command>
+        <result xml:space="preserve">You already have that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1284">
+        <command xml:space="preserve">go west</command>
+        <result xml:space="preserve">
+Witch's Garden
+In this garden grow plants that eat insects and plants that eat birds. It is bordered by a bone fence, and the pavements are made of a giant's kneecaps.
+
+In the center of the garden is Witch's hut, which walks on chicken legs. Currently the hut is squatting on the ground.
+
+A beautiful and tasteful plant is in Witch's Garden.
+
+Some plants can even speak!
+
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1285"></child>
+        </children>
+    </item>
+    <item nodeId="node-1285">
+        <command xml:space="preserve">have a look at the ball</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1286"></child>
+        </children>
+    </item>
+    <item nodeId="node-1286">
+        <command xml:space="preserve">take the ball</command>
+        <result xml:space="preserve">You already have that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1287"></child>
+        </children>
+    </item>
+    <item nodeId="node-1287">
+        <command xml:space="preserve">drop the ball</command>
+        <result xml:space="preserve">It rolls suggestively towards the inside. You pick it up again before it can get too far ahead of you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1288"></child>
+        </children>
+    </item>
+    <item nodeId="node-1288">
+        <command xml:space="preserve">go eaast</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1289"></child>
+        </children>
+    </item>
+    <item nodeId="node-1289">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">
+Deep Forest
+Oops, you are lost in a deep forest. The trees grow so close together that you cannot see the moon or the sky, and no animals or small plants thrive on the ground. It seems dangerous around, so keep your eyes sharp...
+
+and...
+
+try to go somewhere.
+
+wait...
+
+there's a ball in your pocket!
+
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1290"></child>
+        </children>
+    </item>
+    <item nodeId="node-1290">
+        <command xml:space="preserve">drop the ball</command>
+        <result xml:space="preserve">The ball rolls around uncertainly and then comes back to sit at your feet with such an apologetic air that you have to pick it back up.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1276">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1277"></child>
+        </children>
+    </item>
+    <item nodeId="node-1277">
+        <command xml:space="preserve">go west</command>
+        <result xml:space="preserve">
+Witch's Garden
+In this garden grow plants that eat insects and plants that eat birds. It is bordered by a bone fence, and the pavements are made of a giant's kneecaps.
+
+In the center of the garden is Witch's hut, which walks on chicken legs. Currently the hut is squatting on the ground.
+
+A beautiful and tasteful plant is in Witch's Garden.
+
+Some plants can even speak!
+
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1278"></child>
+        </children>
+    </item>
+    <item nodeId="node-1278">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">
+Deep Forest
+Oops, you are lost in a deep forest. The trees grow so close together that you cannot see the moon or the sky, and no animals or small plants thrive on the ground. It seems dangerous around, so keep your eyes sharp... and... try to go somewhere!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1279"></child>
+        </children>
+    </item>
+    <item nodeId="node-1279">
+        <command xml:space="preserve">go west</command>
+        <result xml:space="preserve">
+Witch's Garden
+In this garden grow plants that eat insects and plants that eat birds. It is bordered by a bone fence, and the pavements are made of a giant's kneecaps.
+
+In the center of the garden is Witch's hut, which walks on chicken legs. Currently the hut is squatting on the ground.
+
+A beautiful and tasteful plant is in Witch's Garden.
+
+Some plants can even speak!
+
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1280">
+        <command xml:space="preserve">drop the ball</command>
+        <result xml:space="preserve">It rolls suggestively towards the west. You pick it up again before it can get too far ahead of you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1299"></child>
+            <child nodeId="node-1281"></child>
+        </children>
+    </item>
+    <item nodeId="node-1281">
+        <command xml:space="preserve">look at the ball</command>
+        <result xml:space="preserve">Whenever you drop this, it rolls in the way you should go.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1299">
+        <command xml:space="preserve">go west</command>
+        <result xml:space="preserve">
+Witch's Garden
+In this garden grow plants that eat insects and plants that eat birds. It is bordered by a bone fence, and the pavements are made of a giant's kneecaps.
+
+In the center of the garden is Witch's hut, which walks on chicken legs. Currently the hut is squatting on the ground.
+
+A beautiful and tasteful plant is in Witch's Garden.
+
+Some plants can even speak!
+
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1300"></child>
+        </children>
+    </item>
+    <item nodeId="node-1300">
+        <command xml:space="preserve">drop the ball</command>
+        <result xml:space="preserve">It rolls suggestively towards the inside. You pick it up again before it can get too far ahead of you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
