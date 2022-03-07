@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1273">
+<Skein rootNode="node-1061">
     <generator>Inform Mac Client (Inform version )</generator>
-    <item nodeId="node-1273">
+    <item nodeId="node-1061">
         <command xml:space="preserve">Oops</command>
         <result xml:space="preserve">
 
@@ -26,29 +26,29 @@ there's a ball in your pocket!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1280"></child>
-            <child nodeId="node-1276"></child>
-            <child nodeId="node-1284"></child>
-            <child nodeId="node-1274"></child>
+        <children><child nodeId="node-1075"></child>
+            <child nodeId="node-1071"></child>
+            <child nodeId="node-1064"></child>
+            <child nodeId="node-1062"></child>
         </children>
     </item>
-    <item nodeId="node-1274">
+    <item nodeId="node-1062">
         <command xml:space="preserve">take it</command>
         <result xml:space="preserve">I'm not sure what 'it' refers to.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1275"></child>
+        <children><child nodeId="node-1063"></child>
         </children>
     </item>
-    <item nodeId="node-1275">
+    <item nodeId="node-1063">
         <command xml:space="preserve">take the ball</command>
         <result xml:space="preserve">You already have that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1284">
+    <item nodeId="node-1064">
         <command xml:space="preserve">go west</command>
         <result xml:space="preserve">
 Witch's Garden
@@ -64,46 +64,46 @@ Some plants can even speak!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1285"></child>
+        <children><child nodeId="node-1065"></child>
         </children>
     </item>
-    <item nodeId="node-1285">
+    <item nodeId="node-1065">
         <command xml:space="preserve">have a look at the ball</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1286"></child>
+        <children><child nodeId="node-1066"></child>
         </children>
     </item>
-    <item nodeId="node-1286">
+    <item nodeId="node-1066">
         <command xml:space="preserve">take the ball</command>
         <result xml:space="preserve">You already have that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1287"></child>
+        <children><child nodeId="node-1067"></child>
         </children>
     </item>
-    <item nodeId="node-1287">
+    <item nodeId="node-1067">
         <command xml:space="preserve">drop the ball</command>
         <result xml:space="preserve">It rolls suggestively towards the inside. You pick it up again before it can get too far ahead of you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1288"></child>
+        <children><child nodeId="node-1068"></child>
         </children>
     </item>
-    <item nodeId="node-1288">
+    <item nodeId="node-1068">
         <command xml:space="preserve">go eaast</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1289"></child>
+        <children><child nodeId="node-1069"></child>
         </children>
     </item>
-    <item nodeId="node-1289">
+    <item nodeId="node-1069">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">
 Deep Forest
@@ -121,26 +121,26 @@ there's a ball in your pocket!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1290"></child>
+        <children><child nodeId="node-1070"></child>
         </children>
     </item>
-    <item nodeId="node-1290">
+    <item nodeId="node-1070">
         <command xml:space="preserve">drop the ball</command>
         <result xml:space="preserve">The ball rolls around uncertainly and then comes back to sit at your feet with such an apologetic air that you have to pick it back up.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1276">
+    <item nodeId="node-1071">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1277"></child>
+        <children><child nodeId="node-1072"></child>
         </children>
     </item>
-    <item nodeId="node-1277">
+    <item nodeId="node-1072">
         <command xml:space="preserve">go west</command>
         <result xml:space="preserve">
 Witch's Garden
@@ -156,10 +156,10 @@ Some plants can even speak!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1278"></child>
+        <children><child nodeId="node-1073"></child>
         </children>
     </item>
-    <item nodeId="node-1278">
+    <item nodeId="node-1073">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">
 Deep Forest
@@ -167,10 +167,10 @@ Oops, you are lost in a deep forest. The trees grow so close together that you c
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1279"></child>
+        <children><child nodeId="node-1074"></child>
         </children>
     </item>
-    <item nodeId="node-1279">
+    <item nodeId="node-1074">
         <command xml:space="preserve">go west</command>
         <result xml:space="preserve">
 Witch's Garden
@@ -187,24 +187,24 @@ Some plants can even speak!
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1280">
+    <item nodeId="node-1075">
         <command xml:space="preserve">drop the ball</command>
         <result xml:space="preserve">It rolls suggestively towards the west. You pick it up again before it can get too far ahead of you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1299"></child>
-            <child nodeId="node-1281"></child>
+        <children><child nodeId="node-1077"></child>
+            <child nodeId="node-1076"></child>
         </children>
     </item>
-    <item nodeId="node-1281">
+    <item nodeId="node-1076">
         <command xml:space="preserve">look at the ball</command>
         <result xml:space="preserve">Whenever you drop this, it rolls in the way you should go.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1299">
+    <item nodeId="node-1077">
         <command xml:space="preserve">go west</command>
         <result xml:space="preserve">
 Witch's Garden
@@ -220,10 +220,10 @@ Some plants can even speak!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1300"></child>
+        <children><child nodeId="node-1078"></child>
         </children>
     </item>
-    <item nodeId="node-1300">
+    <item nodeId="node-1078">
         <command xml:space="preserve">drop the ball</command>
         <result xml:space="preserve">It rolls suggestively towards the inside. You pick it up again before it can get too far ahead of you.
 
