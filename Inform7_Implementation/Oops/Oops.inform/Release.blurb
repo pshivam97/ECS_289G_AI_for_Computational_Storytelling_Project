@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/kunlin/Documents/GitHub/Oops.inform/Build/StatusCblorb.html"
+status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/kunlin/Documents/GitHub/ECS289G/Project/Inform7_Implementation/Oops/Oops.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "/Users/kunlin/Documents/GitHub/Oops.inform"
-release to "/Users/kunlin/Documents/GitHub/Oops.materials/Release"
+project folder "/Users/kunlin/Documents/GitHub/ECS289G/Project/Inform7_Implementation/Oops/Oops.inform"
+release to "/Users/kunlin/Documents/GitHub/ECS289G/Project/Inform7_Implementation/Oops/Oops.materials/Release"
 
 ! Blorb instructions
 
 storyfile leafname "Oops.gblorb"
-storyfile "/Users/kunlin/Documents/GitHub/Oops.inform/Build/output.ulx" include
-ifiction "/Users/kunlin/Documents/GitHub/Oops.inform/Metadata.iFiction" include
+storyfile "/Users/kunlin/Documents/GitHub/ECS289G/Project/Inform7_Implementation/Oops/Oops.inform/Build/output.ulx" include
+ifiction "/Users/kunlin/Documents/GitHub/ECS289G/Project/Inform7_Implementation/Oops/Oops.inform/Metadata.iFiction" include
 cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
 picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
 

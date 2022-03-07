@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1083">
+    <generator>Inform Mac Client (Inform version )</generator>
+    <item nodeId="node-1083">
+        <command xml:space="preserve">TheDoor</command>
+        <result xml:space="preserve">
+
+
+TheDoor
+An Interactive Fiction by Kunlin
+Release 1 / Serial number 220307 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Old Mansion
+Hello! Welcome to the old mansion. Best of luck, hope you find your way to the trophy! Go inside to enter the Studyroom?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1086"></child>
+        </children>
+    </item>
+    <item nodeId="node-1086">
+        <command xml:space="preserve">enter the studyroom</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1087"></child>
+        </children>
+    </item>
+    <item nodeId="node-1087">
+        <command xml:space="preserve">go in the studyroom</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1088"></child>
+        </children>
+    </item>
+    <item nodeId="node-1088">
+        <command xml:space="preserve">go inside</command>
+        <result xml:space="preserve">
+Studyroom
+Welcome to the Study Room! Description of the room: 1. There are no doors to on any of the wall! 2. There is a fireplace, bookshelf, desk and a ladder in the study room. Look around, maybe you find some clues to escape from the room!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1089"></child>
+        </children>
+    </item>
+    <item nodeId="node-1089">
+        <command xml:space="preserve">look at the studyroom</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1090"></child>
+        </children>
+    </item>
+    <item nodeId="node-1090">
+        <command xml:space="preserve">go outside</command>
+        <result xml:space="preserve">
+Old Mansion
+Hello! Welcome to the old mansion. Best of luck, hope you find your way to the trophy! Enter the Studyroom?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1091"></child>
+        </children>
+    </item>
+    <item nodeId="node-1091">
+        <command xml:space="preserve">go inside</command>
+        <result xml:space="preserve">
+Studyroom
+Welcome to the Study Room! Description of the room: 1. There are no doors to on any of the wall! 2. There is a fireplace, bookshelf, desk and a ladder in the study room. Look around, maybe you find some clues to escape from the room!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
