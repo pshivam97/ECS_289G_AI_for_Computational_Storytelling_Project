@@ -1,0 +1,58 @@
+Welcome to the garden!!
+*line_break
+There is a fountain of water in the center of the garden....
+*line_break
+Look around, explore. Remember, your goal is to get the winning trophy!
+*label gardenActions
+*line_break
+*line_break
+Select Action:
+*choice
+    # Drink Water from fountain
+        *if drinkCounter = 0
+            *set drinkCounter + 1
+            Yumm! Looks like fresh water. This certainly quenched the thirst of the tired player! But this does not look like an ordinary fountain...
+            *goto gardenActions
+        *else
+            *set drinkCounter + 1
+            A voice form fountain: I am not just an ordinary fountain! I am a magic fountain.
+            *if hasMagicCoin = 0
+                Look around, maybe you will find something I need...
+                *goto gardenActions
+            *else
+               Looks like you have the Magic coin I am looking for. Give me the coin and you shall get what you seek...
+               *choice
+                   # Put the magic coin in the fountain
+                       *goto_scene endgame
+
+    # Go North
+        There is nothing to see here. Maybe explore more of the garden to get tools and clues to the trophy!!!
+        *goto gardenActions
+    
+    # Go West
+        *if hasShovel = 0
+            There is a shovel at the west end of the Garden. You should collect all such tools to help you get the trophy!
+            *choice
+                # Pick up shovel
+                    *set hasShovel + 1
+                    You have picked up the shovel and have it in your inventory.
+                    *goto gardenActions
+        *else
+            There is nothing here. Explore more to get more clues.
+            *goto gardenActions
+    
+    # Go South
+        *if hasShovel = 0
+            There is a sign on the wall saying: "DIG HERE".
+            *line_break
+            Wonder if there was such a tool to do that... Explore the garden more to find more clues related to this.
+            *goto gardenActions
+        *else
+            *if hasMagicCoin = 1
+                There is nothing here now. Just an empty treasure box…
+                *goto gardenActions
+            *else
+                There is a sign on the wall saying: "DIG HERE". You can use your shovel to dig near the wall!
+                *choice
+                    # Use shovel to dig
+                        *goto_scene shovelactions

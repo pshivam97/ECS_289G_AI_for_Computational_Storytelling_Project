@@ -1,0 +1,7 @@
+You go on digging and finally find a treasure box!
+*line_break
+You open the box and there is a shining Magic coin in it.
+*set hasMagicCoin + 1
+*line_break
+You now own a Magic coin! See if it is helpful in your quest to get the trophy.
+*goto_scene garden

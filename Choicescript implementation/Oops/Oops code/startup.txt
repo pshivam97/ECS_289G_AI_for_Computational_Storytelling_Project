@@ -1,0 +1,49 @@
+*title Oops
+*create stageNumber 0
+The Deep Forest
+*line_break
+Oops, you are lost in a deep forest. The trees grow so close together that you cannot see the moon or the sky, and no animals or small plants thrive on the ground. It seems dangerous around, so keep your eyes sharp...
+*line_break
+and...
+*line_break
+try to go somewhere.
+*line_break
+wait...
+*line_break
+there's a ball in your pocket!
+*line_break
+*line_break
+*label forestActions
+*choice
+    # Who am I?
+        Some people call you Ivan the Fool, but you pay no attention to their rudeness.
+        *goto forestActions
+    
+    # What is the use of this Ball?
+        Whenever you drop this, it rolls in the way you should go.
+        *goto forestActions
+    
+    # Drop the ball
+        The ball rolls suggestively towards west. You pick it up again before it can get too far ahead of you.
+        *goto forestActions
+    
+    # Go North
+        There is nothing but a deep dark forest in this direction. Explore other sides to make progress.
+        *goto forestActions
+    
+    # Go South
+        There is nothing but a deep dark forest in this direction. Explore other sides to make progress.
+        *goto forestActions
+    
+    # Go East
+        There is nothing but a deep dark forest in this direction. Explore other sides to make progress.
+        *goto forestActions
+    
+    # Go West
+        There is a garden in the West!
+        *line_break
+        Looks very spooky...
+        *choice
+            # Enter the Garden
+                *goto_scene garden
+*finish

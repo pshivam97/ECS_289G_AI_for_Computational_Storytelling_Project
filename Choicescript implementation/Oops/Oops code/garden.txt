@@ -1,0 +1,18 @@
+In this garden grow plants that eat insects and plants that eat birds. It is bordered by a bone fence, and the pavements are made of a giant's kneecaps.
+*line_break
+In the center of the garden is Witch's hut, which walks on chicken legs. Currently the hut is squatting on the ground.
+*line_break
+A beautiful and tasteful plant is in Witch's Garden.
+*line_break
+Some plants can even speak!
+*line_break
+*line_break
+*label gardenActions
+*choice
+    # Drop the ball
+        The ball rolls suggestively towards inside. You pick it up again before it can get too far ahead of you.
+        *goto gardenActions
+    
+    # Enter the Witch's hut
+        *goto_scene hut
+*finish

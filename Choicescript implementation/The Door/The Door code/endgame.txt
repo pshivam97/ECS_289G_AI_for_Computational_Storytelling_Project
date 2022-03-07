@@ -1,0 +1,13 @@
+*if hasMagicCoin > 0
+    Hahahahohoho!!
+    Thank you for the magic coin! I know what you have been looking for all this while!
+    *line_break
+    Here, take your prize and win the game!!
+    *line_break
+    (A gold trophy emerges from the fountain water...)
+    *choice 
+        # Pick up the trophy
+            *ending
+*else
+    Hope you win the next time you play the game.
+    *ending

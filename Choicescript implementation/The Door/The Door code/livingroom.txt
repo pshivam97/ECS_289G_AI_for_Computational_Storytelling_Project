@@ -1,0 +1,80 @@
+Welcome to the Living room!
+*line_break
+Look around! Try to escape this room. Remember, you want to win the trophy!
+*label livingRoomActions
+*line_break
+*line_break
+Living Room Actions:
+*choice
+    #Go to North Wall
+        There is a dusty bookshelf with some old books in it.
+        *choice
+            # Kick Bookshelf
+                *if kickCounter  = 0
+                    *set kickCounter + 1
+                    Books fell down, careful, you might unlock some secret.
+                    *goto livingRoomActions
+                *else
+                    *if kickCounter = 1
+                        *set kickCounter + 1
+                        Some more books fell down, you are persistent…
+                        *goto livingRoomActions
+                    *else
+                        *if kickCounter = 2
+                            *set kickCounter + 1
+                            *set hasSecretKey + 1
+                            An old book fell down, it opened and you find something shiny! Its a key to the secret room! The key is in your inventory now.
+                            *goto livingRoomActions
+                        *else
+                            There is nothing left to see here.
+                            *goto livingRoomActions
+                        *finish
+                    *finish
+                *finish
+        *finish
+    
+    # Go to South Wall
+        There is nothing on this wall. Explore more and try to uncover the secrets!!!
+        *goto livingRoomActions
+    
+    # Go to East Wall
+        There is the door you used to enter the Living Room! Want to go back to the dusty study?
+        *choice
+            # Go to the study room
+                *goto_scene studyroom
+            # Go back to options
+                *goto livingRoomActions
+    
+    # Go to West Wall
+        *if seenSecretRoom < 4
+            There is nothing on the wall. But there is something different about this wall. Looks like there could be a door here. Explore more to know about the secrets of the wall!
+            *goto livingRoomActions
+        *else
+            Enter the N-E-W-S pass-key to escape the room.
+            *input_text passKey
+            *if passKey = "QWERTYASDFGH"
+                This is the correct pass-key!
+                *choice
+                    # Escape the room
+                        *goto_scene garden
+            *else
+                This is not the correct passkey. Please try again.
+                *goto livingRoomActions
+            *finish
+        *finish
+    
+    *selectable_if (hasSecretKey = 1) # Go to Secret Room
+        *goto_scene secretroom
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        

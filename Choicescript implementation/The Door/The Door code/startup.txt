@@ -1,0 +1,33 @@
+*title theDoor
+*author Aniket Banginwar
+
+*create name "Bob"
+*create passKey ""
+*create counter 0
+*create kickCounter 0
+*create rubFireplace 0
+*create rubDesk 0
+*create hasLadder 0
+*create hasDoor 0
+*create hasChair 0
+*create hasShovel 0
+*create hasMagicCoin 0
+*create hasSecretKey 0
+*create seenSecretRoom 0
+*create drinkCounter 0
+
+Enter your name?
+
+*input_text name
+
+Hello ${name}! Welcome to the old mansion. 
+*line_break
+Best of luck, hope you find your way to the trophy!
+*line_break
+Start game?
+
+*choice
+    # Yes
+        *goto_scene studyroom
+    # No
+        *goto_scene endgame

@@ -1,0 +1,130 @@
+Welcome to the Study Room!
+*line_break
+Description of the room:
+*line_break
+1. There are no doors to on any of the wall!
+*line_break
+2. There is a fireplace, bookshelf, desk and a ladder in the study room.
+*line_break
+Look around, maybe you find some clues to escape from the room!
+*label studyRoomActions
+*line_break
+*line_break
+Select Action:
+*choice
+    # Rub Desk
+        *if rubDesk = 0
+            *set rubDesk + 1
+            This is just a dusty old desk.
+            *goto studyRoomActions
+        *else
+            *if (rubFireplace = 1) and (rubDesk = 1)
+                *if hasDoor = 0
+                    *set hasDoor + 1
+                    Check inventory, you have a new gift!
+                    *goto studyRoomActions
+                *else
+                    This is just a dusty old desk.
+                    *goto studyRoomActions
+            *else
+                This is just a dusty old desk.
+                *goto studyRoomActions
+        *finish
+    
+    # Pick up ladder
+        *if hasLadder  = 0
+            *set hasLadder + 1
+            You picked up the ladder.
+            *goto studyRoomActions
+        *else
+            You already have the ladder.
+            *goto studyRoomActions
+        *finish
+        
+    # Put down ladder
+        *if hasLadder  = 1
+            *set hasLadder - 1
+            You put down the ladder.
+            *goto studyRoomActions
+        *else
+            You do not have the ladder in your inventory.
+            *goto studyRoomActions
+         *finish
+     
+    # Check Inventory
+        *if (hasLadder + hasDoor) = 0
+            Your inventory is empty. Look around for tools in order to escape this room.
+            *goto studyRoomActions
+        *else
+            You have the following items in your inventory:
+            *if (hasLadder = 1) and (hasDoor = 1)
+                *line_break
+                Ladder
+                *line_break
+                Door
+                *goto studyRoomActions
+            *elseif hasDoor = 1
+                *line_break
+                Door
+                *goto studyRoomActions
+            *elseif hasLadder = 1
+                *line_break
+                Ladder
+                *goto studyRoomActions
+            *finish
+        *finish
+    
+    # Go to North Wall
+        *choice
+            # Rub Fireplace
+                *if rubFireplace = 0
+                    *set rubFireplace + 1
+                    This is a dusty old fireplace.
+                    *goto studyRoomActions
+                *else
+                    *if (rubFireplace = 1) and (rubDesk = 1)
+                        *if hasDoor = 0
+                            *set hasDoor + 1
+                            Check inventory, you have a new gift!
+                            *goto studyRoomActions
+                        *else
+                            This is just a dusty old desk.
+                            *goto studyRoomActions
+                    *else
+                        This is just a dusty old desk.
+                        *goto studyRoomActions
+        *finish
+    
+    # Go to South Wall
+        *if hasLadder = 1
+            You can use the ladder to look out the window!
+            *choice
+                # Look out the Window
+                    There is a beautiful garden outside.
+                    *goto studyRoomActions
+            *finish
+        *else
+            There is a window on the wall but it is quite high up. Look for something to reach it.
+            *goto studyRoomActions
+        *finish
+    
+    # Go to East Wall
+        There is nothing on the East Wall.
+        *goto studyRoomActions
+    
+    # Go to West Wall
+        *if hasDoor = 1
+            There is nothing on the wall but you can use the door in the inventory to go through the wall.
+            *choice
+                # Use the Door
+                    *goto_scene livingroom
+            *finish
+        *else
+            There is nothing on the wall. Look around, maybe you find some tools escape from this room.
+            *goto studyRoomActions
+        *finish
+
+    
+
+
+                    

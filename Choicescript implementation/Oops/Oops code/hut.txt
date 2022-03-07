@@ -1,0 +1,27 @@
+From in here, there is no evidence of the hut's chicken nature except that the wallpaper is made of yellow-white feathers.
+*line_break
+One corner of the hut is taken up by the gigantic mortar, big enough to stand in.
+*line_break
+Witch sits at her work table, sewing symbols into a magic towel.
+*line_break
+Her teeth are made of iron and her eyes can see in the dark. Though she is old, her fingers are nimble, and she has forgotten nothing that she has ever seen.
+*line_break
+*line_break
+*label hutActions
+*choice
+    # Drop the ball
+        The ball rolls around uncertainly and then comes back to sit at your feet with such an apologetic air that you have to pick it back up.
+        *goto hutActions
+    
+    # Examine the mortar
+        Oh, I wouldn't do that, Foolish Ivan,' says Witch. 'Where it would take you, you're not ready to go.
+        *goto hutActions
+    
+    # Examine the magic towel
+        To judge by the spell worked into its fringes, this is a towel that can turn into a bridge across any river or chasm.
+        *choice
+            # Go back
+                *goto hutAction
+            # End story
+                Bye Ivan! You are not a fool afterall...
+                *ending
